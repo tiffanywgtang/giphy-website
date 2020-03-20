@@ -1,0 +1,35 @@
+// Variables
+
+// Font
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Rokkitt&display=swap');
+// header
+$noto-sans: 'Noto Sans KR', sans-serif;             
+// body
+$rokkitt: 'Rokkitt', serif;
+
+// font sizes
+$header-font: 1.8em;
+$body-font: 0.9em;
+$nav-font: 1.2em;
+
+// Colors
+
+$white: #ffffff;
+$dark-color: rgb(44, 44, 44);
+$red: #e2726c;
+$yellow: #f0f66e;
+$green: #9cd175;
+$blue: #83c3c6;
+$purple: #9670b5;
+
+// Padding variables
+$body-padding: 5% 15%;
+$body-padding-lg: 5% 37%;
+
+// Media Query Breakpoints
+@function em($px,$bc: 16){
+    @return #{$px/$bc}em;
+}
+$mobileScreen: em(320);
+$tabletScreen: em(560);
+$desktopScreen: em(1080);
